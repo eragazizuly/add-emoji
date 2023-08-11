@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    border: none;
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-align: center;
+    margin: 3px;
+}
+
+html {
+    background: linear-gradient(#FF5F6D, #FFC371);
+    font-family: 'Pacifico', cursive;
+    height: 100vh;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+
+#emojiContainer span {
+    font-size: 60px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.buttons-add button {
+    color: aliceblue;
+    background-color: #80D87F;
+}
+
+.buttons-remove button {
+    color: aliceblue;   
+    background-color: #E23349;
+}
